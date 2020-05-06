@@ -51,3 +51,6 @@ domain = "{{domain.stdout}}"
 watch = true
 exposedbydefault = false
 network = "plexguide"
+[file]
+  directory = "/etc/traefik/rules/"
+  watch = true
